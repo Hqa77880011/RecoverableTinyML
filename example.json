@@ -1,0 +1,229 @@
+{
+  "stages": [
+    {
+      "factor": 3,
+      "offset": 0,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 1,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 2,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 3,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 4,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 5,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 6,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    },
+    {
+      "factor": 3,
+      "offset": 7,
+      "exec_ms": 3,
+      "energy": 5,
+      "payload": 1024,
+      "live": 4096,
+      "scratch": 1024
+    }
+  ],
+  "captures": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950
+  ],
+  "lifetime": 150,
+  "trace": [
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    },
+    {
+      "on": true,
+      "duration": 40
+    },
+    {
+      "on": false,
+      "duration": 80
+    }
+  ],
+  "nvm": 65536,
+  "sram": 49152,
+  "usable_energy": 120,
+  "reserve": 16,
+  "write_allowance": 524288,
+  "write_energy_per_byte": 0.001,
+  "write_bytes_per_ms": 512,
+  "checkpoint_interval": 1
+}
