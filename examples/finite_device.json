@@ -1,0 +1,70 @@
+{
+  "lifetime": 15,
+  "captures": [
+    0,
+    20,
+    40
+  ],
+  "trace": [
+    {
+      "on": true,
+      "duration": 3
+    },
+    {
+      "on": false,
+      "duration": 2
+    },
+    {
+      "on": true,
+      "duration": 4
+    },
+    {
+      "on": false,
+      "duration": 1
+    },
+    {
+      "on": true,
+      "duration": 83
+    }
+  ],
+  "usable_energy": 30,
+  "reserve": 1,
+  "write_allowance": 512,
+  "write_energy_per_byte": 0.001,
+  "write_bytes_per_ms": 128,
+  "nvm": 512,
+  "sram": 4096,
+  "policy_memory": 1536,
+  "mean_on": 40,
+  "candidate_count": 4,
+  "model_version": 1,
+  "stages": [
+    {
+      "exec_ms": 2,
+      "energy": 1,
+      "payload": 32,
+      "live": 64,
+      "scratch": 16,
+      "factor": 2,
+      "offset": 1
+    },
+    {
+      "exec_ms": 3,
+      "energy": 2,
+      "payload": 32,
+      "live": 64,
+      "scratch": 16,
+      "factor": 3,
+      "offset": 2
+    },
+    {
+      "exec_ms": 3,
+      "energy": 2,
+      "payload": 32,
+      "live": 64,
+      "scratch": 16,
+      "factor": 2,
+      "offset": 4
+    }
+  ]
+}
